@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <style>
+        body{
+            background-color: black;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+        color: white;
+        }
+        h1{
+            color: white;
+        }
+        #span{
+            width: 100%;
+            height: 15vh;
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+        
+        #para{
+            color: white;
+            text-align: center;
+           
+        }
+        h2{
+            color: yellow;
+            text-align: center;
+        }
+        
+        li{
+            padding-left: 150px;
+            display: inline-block;
+            list-style: none;
+            margin: 0px 20px;
+            
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        #sign{
+            background-color: #FFE006;
+            padding: 7pt 16pt;
+            color: black;
+            border-radius: 8pt;
+            box-shadow: 0%;
+            font-weight: bold;
+            margin-left: 150px;
+        }
+            
+        form input{
+        font-size: 15px;
+        width: 250px;
+        height: 42px;
+        border-radius: 12px;
+        border: none;
+        background-color: white; 
+    }
+    form span input{
+        width: 250px;
+        height: 42px;
+        border-radius: 12px;
+        border: none;
+        background-color: #FFE600;
+    }
+    #forget{
+        text-align: center;
+    }
+    #privacy span{
+        float: right;}
+    #google{
+        background-image: url(google.jfif);
+        background-position: 7%;
+        padding-right: 40px;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-left: 200px;
+    }
+    #fb{
+        background-image: url(fb.jfif);
+        padding-right: 30px;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-left: 200px;
+        background-position: 7%;
+        box-shadow: 0pc;
+    }
+    #input{
+        padding-right: 40px;
+        float: left;
+        padding:7pt 16pt;
+        margin-left: 245px;
+    }
+    ::-webkit-input-placeholder{
+        padding-left: 8px;
+        font-family: 'Quicksand', sans-serif;
+        color: black;
+    }
+    #slash
+        {
+            color:white;
+            font-weight: 5cm;
+            padding-left: 130%;
+            font-size: larger;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id=header>
+        <span id=span> 
+            <h1>Coursio</h1>
+            <ul>
+                <li> <a href="#"> category</a></li>
+                <li> <a href="#"> Bussiness</a></li>
+                <li> <a href="#">Touch</a></li>
+            </ul>
+            <button id=sign> sign up</button>
+        </span>
+    </div>
+    <div>
+            <h2>Login to Your Account</h2>
+            <p id=para>choose from 1,30,000 online vedio tutorials with <br>additional publications for every month</p>
+            <form>
+                <div id="input">
+                <input type="text" name="name" placeholder="Teacher / Student ID">
+                <br><br>
+                <input type="password" name="password" placeholder="8 digit pin">   <span id=slash>/</span>        
+                <br>
+                <span><input type="button" value="Login" placeholder="Login"></span>
+                <br><br>
+                </div>
+                <br>
+                <div id="button">
+                 <input id="google" type="button" value="Log in Google" ></span><br><br>
+                <input id="fb" type="button" value="Log in Facebook" >
+                </div>
+            </form>
+            <br>
+            <br>
+            <br><br>
+            <p id="forget">
+                Forget password?
+            </p>
+            <br>
+            <p id="privacy">Privacy<span>Copyrights@2023</span></p>
+    </body>
+    </html>
